@@ -2,7 +2,7 @@
 
 var H5=function () {
     this.id=('h5_'+Math.random()).replace('.','_');
-    this.el=$('<div class="h5" id="'+this.id+'">').hide;
+    this.el=$('<div class="h5" id="'+this.id+'">').hide();
     $('body').append( this.el );
     /* 新增一个页
     * name
